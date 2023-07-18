@@ -6,23 +6,23 @@ class Program
     {
         List<Video> videos = new List<Video>();
 
-        videos.Add(new Video("World Record for Longest Nap", "Jaschon", 323));
-        videos[0].AddComment(new Comment("Kobi", "Great video!"));
-        videos[0].AddComment(new Comment("Diego", "That's crazy."));
-        videos[0].AddComment(new Comment("Jacob", "Wow!"));
-        videos[0].AddComment(new Comment("Isaac", "Nice!"));
+        videos.Add(new Video("Cool new kicks", "Mitchell", 55));
+        videos[0].AddComment(new Comment("John", "Cool shoes!"));
+        videos[0].AddComment(new Comment("Dave", "Jealous!"));
+        videos[0].AddComment(new Comment("Jack", "These are my favorites..."));
+        videos[0].AddComment(new Comment("William", "Fresh"));
 
-        videos.Add(new Video("How to Make Tacos", "Mr. Chef", 467));
-        videos[1].AddComment(new Comment("Angelica", "Looks delicious!"));
-        videos[1].AddComment(new Comment("Valerie", "I love this recipie!"));
-        videos[1].AddComment(new Comment("Chayenne", "Yummy!"));
-        videos[1].AddComment(new Comment("Brighton", "Best tacos ever."));
+        videos.Add(new Video("Fresh Enchiladas", "Rordan Gamsay", 300));
+        videos[1].AddComment(new Comment("Cameron", "I'm making this RIGHT NOW!"));
+        videos[1].AddComment(new Comment("Vaickie", "This was a great video, really good enchiladas"));
+        videos[1].AddComment(new Comment("Megan", "Deliscious"));
+        videos[1].AddComment(new Comment("Bob", "Rordan Gamsay never ceases to amaze"));
 
-        videos.Add(new Video("Minecraft Let's Play Episode 3", "Roboman", 832));
-        videos[2].AddComment(new Comment("Natalie", "I love your content!"));
-        videos[2].AddComment(new Comment("Izzy", "First!"));
-        videos[2].AddComment(new Comment("Becky", "You are awesome"));
-        videos[2].AddComment(new Comment("McKenzie", "So cool."));
+        videos.Add(new Video("Mario Odyssey Review in 10 minutes", "Jumpman 1995", 600));
+        videos[2].AddComment(new Comment("ChadCrazy", "Thanks for the review, I'm getting this game"));
+        videos[2].AddComment(new Comment("gamerkitten", "This looks so good!"));
+        videos[2].AddComment(new Comment("Hatman12", "Can't wait for this game!"));
+        videos[2].AddComment(new Comment("Mitchell", "Mario is my brother, Wahooo!"));
         
         foreach (Video video in videos)
         {

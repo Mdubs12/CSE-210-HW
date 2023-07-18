@@ -4,21 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Address address1 = new Address("1234 Penelope Ave", "Sequim", "Washington", "USA");
-        Customer customer1 = new Customer("Samuel", address1);
+        Address address1 = new Address("123 Hunters Rd.", "Walla Walla", "Washington", "USA");
+        Customer customer1 = new Customer("John", address1);
         Order order1 = new Order(customer1);
 
-        order1.AddProduct(new Product("Watermelon", "5W6M7O", 2.53, 3));
-        order1.AddProduct(new Product("Infinite Ladder", "Q65C7T", 99.99, 1));
-        order1.AddProduct(new Product("Endless Water Bucket", "E7W1B9", 53.47, 3));
+        order1.AddProduct(new Product("Soda", "6TY21P", 2.50, 8));
+        order1.AddProduct(new Product("Corn on the Cob", "QW58T6", 3.00, 10));
+        order1.AddProduct(new Product("Ham Sandwich", "RT687U", 4.56, 7));
 
-        Address address2 = new Address("4321 Hanway Rd", "Villa Altagracia", "Los Alcarrizos", "Dominican Republic");
-        Customer customer2 = new Customer("Tim", address2);
+        Address address2 = new Address("648 Guerro St.", "Champerico", "Retalhuleu", "Guatemala");
+        Customer customer2 = new Customer("Tio Jorge", address2);
         Order order2 = new Order(customer2);
 
-        order2.AddProduct(new Product("Strawberries", "S6B4Y8", 2.79, 5));
-        order2.AddProduct(new Product("Coolest Shirt Ever", "C5S4E8", 38.42, 1));
-        order2.AddProduct(new Product("Junior Mints", "J7H9M6", 3.41, 2));
+        order2.AddProduct(new Product("Nintendo Switch", "KL7J65", 350.25, 1));
+        order2.AddProduct(new Product("Breath of the Wild", "HTN2JL", 70.59, 1));
+        order2.AddProduct(new Product("Joycon Controller", "TPL879", 80, 2));
 
         Console.WriteLine("Order 1:\n");
         Console.WriteLine($"Packing Label:\n{order1.getPackagingLabel()}");
